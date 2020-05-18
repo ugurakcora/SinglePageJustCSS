@@ -219,14 +219,13 @@
 
  /* media query */
 
- @media screen and (max-width:1400px){
-     .col-33{
+ @media screen and (max-width: 1400px) {
+     .col-33 {
          margin-top: 20%;
      }
-
  }
 
- @media screen and (max-width:1000px) {
+ @media screen and (max-width: 1000px) {
 
      /* navbar */
      .topnav .menu a {
@@ -237,31 +236,31 @@
          float: none;
      }
 
-     .topnav a .icon {
+     .topnav a.icon {
          display: block;
      }
 
-     .topnav .responsive .icon {
+     .topnav.responsive .icon {
          position: absolute;
-         right: 0;
+         right: 0px;
          top: 8px;
          z-index: 999;
      }
 
-     .topnav .responsive a {
+     .topnav.responsive a {
          float: none;
          display: block;
          text-align: center;
      }
 
-     .topnav .responsive .logo {
+     .topnav.responsive .logo {
          max-width: 250px;
          margin: auto;
      }
 
      /* content */
      section {
-         margin: 0;
+         margin: 0px;
          padding: 10px;
      }
 
@@ -287,7 +286,7 @@
          margin: auto;
      }
 
-     /* footer */
+     /*footer*/
      footer section {
          width: 90%;
      }
