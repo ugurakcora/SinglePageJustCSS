@@ -12,6 +12,9 @@
      background-color: #000;
  }
 
+ html{
+     scroll-behavior: smooth;
+ }
  body {
      margin: 0;
      padding: 0;
@@ -194,4 +197,18 @@
  footer section {
      width: 65%;
      margin: auto;
+ }
+
+ /* footer */
+ footer p{
+     width: 100%;
+     margin: 0;
+     background-color: #323544;
+     color: #999999;
+     text-align: center;
+     line-height: 70px;
+ }
+ footer a{
+     color: #54c4cb;
+     text-decoration: none;
  }
