@@ -35,3 +35,66 @@
  figure {
      display: block;
  }
+
+ /* navbar */
+ nav {
+     position: fixed;
+     width: 100%;
+ }
+
+ nav .container {
+     max-width: 1200px;
+     margin: auto;
+     margin-top: 8px;
+ }
+
+ nav .logo a {
+     font-size: 22px;
+     color: #ffffff;
+     max-width: 250px;
+     margin: auto;
+ }
+
+ nav .menu {
+     float: right;
+ }
+ .topnav{
+     background-color: #000000;
+     overflow: hidden;
+     border-bottom: 1.5px solid #54c3ee;
+     text-transform: uppercase;
+ }
+.topnav a{
+    display: block;
+    float: left;
+    color: #999999;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active, .topnav a:hover{
+    color: #ffffff;
+}
+.topnav .icon{
+    float: right;
+    display: none;
+}
+ /* header */
+ header {
+     /* height: 100vh; */
+     height: 80vh;
+     padding: 100px 30px 30px 30px;
+     text-align: center;
+     background: #000000 url("/img/header.jpg") no-repeat center center;
+     background-size: cover;
+     color: #ffffff;
+     font-size: 25px;
+ }
+
+ header h2 span {
+     color: #54c4cb;
+ }
+
+ header p {
+     font-size: 18px;
+ }
