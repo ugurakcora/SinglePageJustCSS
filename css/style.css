@@ -36,7 +36,7 @@
      display: block;
  }
 
- button{
+ button {
      border: none;
      color: #ffffff;
      padding: 14px 28px;
@@ -45,8 +45,30 @@
      background-color: #54c4cb;
      border-radius: 3px;
  }
- button:hover{
+
+ button:hover {
      background-color: #54c3ee;
+ }
+
+ label {
+     font-size: 20px;
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     border-radius: 5px;
+ }
+
+ input[type="submit"] {
+     background-color: #2196fe;
+     color: #ffffff;
+     cursor: pointer;
+     font-size: 18px;
  }
 
  /* navbar */
@@ -71,31 +93,37 @@
  nav .menu {
      float: right;
  }
- .topnav{
+
+ .topnav {
      background-color: #000000;
      overflow: hidden;
      border-bottom: 1.5px solid #54c3ee;
      text-transform: uppercase;
  }
-.topnav a{
-    display: block;
-    float: left;
-    color: #999999;
-    padding: 14px 18px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.topnav a.active, .topnav a:hover{
-    color: #ffffff;
-}
-.topnav .icon{
-    float: right;
-    display: none;
-}
+
+ .topnav a {
+     display: block;
+     float: left;
+     color: #999999;
+     padding: 14px 18px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+
+ .topnav a.active,
+ .topnav a:hover {
+     color: #ffffff;
+ }
+
+ .topnav .icon {
+     float: right;
+     display: none;
+ }
+
  /* header */
  header {
-     /* height: 100vh; */
-     height: 80vh;
+     height: 100vh;
+     /* height: 80vh; */
      padding: 100px 30px 30px 30px;
      text-align: center;
      background: #000000 url("/img/header.jpg") no-repeat center center;
@@ -113,38 +141,57 @@
  }
 
  /* content */
- section{
+ section {
      margin: 100px 0;
      padding: 100px;
  }
- section p{
+
+ section p {
      line-height: 28px;
      text-align: justify;
  }
- .row::after{
+
+ .row::after {
      content: "";
      display: table;
      clear: both;
  }
- .col-66{
+
+ .col-66 {
      float: left;
      width: 66.66666%;
      padding: 20px;
  }
- .col-33{
+
+ .col-33 {
      float: left;
      width: 33.33333%;
      padding: 20px;
  }
- .firstTitle{
+
+ .firstTitle {
      font-size: 60px;
      font-weight: 900;
  }
- .secondTitle{
-    font-size: 40px;
-    font-weight: 900;
-    color: #54c4cb;
-}
-.thirdTitle{
-    font-size: 24px;
-}
+
+ .secondTitle {
+     font-size: 40px;
+     font-weight: 900;
+     color: #54c4cb;
+ }
+
+ .thirdTitle {
+     font-size: 24px;
+ }
+
+
+ /* contact */
+ footer {
+     background: #54c3ee url("/img/map.png") no-repeat center center;
+     background-size: contain;
+ }
+
+ footer section {
+     width: 65%;
+     margin: auto;
+ }
